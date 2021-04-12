@@ -1,0 +1,102 @@
+#navi-burger{
+    width: 32px;
+    height: 20px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navi-burger hr{    
+    background-color: aliceblue;
+	/* margin: 4px auto; */
+    border: 2px solid aliceblue;
+    border-radius: 2px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-image: url(../image/home_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+
+.home div:first-child{
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    text-align: right;
+    font-size: 1em;
+}
+
+.container{
+    width: 0;   
+    height: 0;  
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid aliceblue;
+    margin: 12px 48%;
+ }
+
+.dialog-right{
+    color: aliceblue;
+    margin-left: 45%;
+}
+
+.dialog-left{
+    color: #888;
+
+}
+
+ #tip{
+     color:#666;
+ }
+
+h2{
+    margin: 20px 0 10px 0;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+
+h3{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+ /* about-me */
+ #about-me{
+    padding:40px 5%;
+}
+/* work */
+
+
+#work{
+    padding:40px 5%;
+    
+}
+
+#work img{
+    width: 100%;
+}
+
+.work-content{
+    color: #888;
+    border-bottom: 1px dashed #333;
+}
+
+/* pillX */
+#pillX-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#pillX-image a{
+    width: 28%;
+    margin-right: 2%;
+}

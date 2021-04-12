@@ -1,0 +1,120 @@
+/* global config */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #343434;
+    font-family: 'Oswald', sans-serif;;
+}
+
+body {
+    background-color: #121212;
+}
+
+/* header background style */
+header {
+    position: fixed;
+    /* height: 40px; */
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+}
+
+header * {
+    color: aliceblue;
+}
+
+/* header content */
+/*title*/
+#page-name {
+    font-size: 6vw;
+    font-family: 'Lobster', cursive;
+}
+
+#navi-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+}
+
+
+/*navigation*/
+#navi {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+    width: 30%;
+}
+
+#navi * {
+    font-size: 3vw;
+}
+
+#navi ul{
+    text-align: center;
+}
+
+#navi ul li{
+    width: 100%;
+    padding: 4px 0;
+}
+
+#navi ul li:hover {
+    transition: background-color 0.3s linear;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#navi ul li:hover * {
+    transition: color 0.3s linear;
+    color: #343434;
+}
+
+#navi ul li a {
+    /* text-align: center; */
+    width: 100%;
+    margin: 40px 12px 0px 12px;
+}
+
+/*footer*/
+footer{
+    background-color: rgba(52, 52, 52, 1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px 0;
+}
+
+footer * {
+    color: aliceblue;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+}
+.footer-contact a{
+    font-size: 0.9em;
+}
+
+.footer-contact a:not(:last-child)::after{
+    content:"\2662";
+    margin: 0px 5px;
+}
+
+.update-time{
+    font-size: 0.8em;
+}
+
+.activeLink{
+    background-color: aliceblue;
+    color: #343434;
+}
+
+.activeLink *{
+    color: #343434;
+}
