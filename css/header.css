@@ -39,6 +39,19 @@ header * {
     padding: 4px 20px;
 }
 
+#navi-burger{
+    width: 32px;
+    height: 20px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navi-burger hr{    
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 2px;
+}
 
 /*navigation*/
 #navi {
@@ -75,7 +88,9 @@ header * {
 #navi ul li a {
     display: block;
     width: 100%;
+    padding: 4px 0;
 }
+
 
 /*footer*/
 footer{
