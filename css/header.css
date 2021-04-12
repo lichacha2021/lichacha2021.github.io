@@ -59,7 +59,6 @@ header * {
 
 #navi ul li{
     width: 100%;
-    padding: 4px 0;
 }
 
 #navi ul li:hover {
@@ -74,9 +73,8 @@ header * {
 }
 
 #navi ul li a {
-    /* text-align: center; */
+    display: block;
     width: 100%;
-    margin: 40px 12px 0px 12px;
 }
 
 /*footer*/
